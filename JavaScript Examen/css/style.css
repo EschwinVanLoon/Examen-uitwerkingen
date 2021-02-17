@@ -1,0 +1,86 @@
+header span{
+	font-size: 70%;
+	font-style: italic;
+}
+
+/* classes om de blokken op maat te maken */
+.blok, .blok3 {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0px 10px;
+}
+				
+.blok2{
+	position: relative;
+	width: 200px;
+	height: 60px;
+	margin: 10px;
+	z-index: 100;
+}
+				
+/* classes om elementen een kleur te geven */				
+				
+.red{
+	background-color: red;
+}
+				
+.green{
+	background-color: green;
+}
+				
+.blue{
+	background-color: blue;
+}
+				
+/* float reset. Door deze class toe te voegen worden alle voorgaande float: lefts gereset */
+
+.reset{
+	clear:left;
+}
+
+/* Classes om de blokken voor opdracht 8 over elkaar te schuiven */
+				
+.schuif1{
+	position: relative;
+	top: -50px;
+	left: 80px;
+}
+					
+.schuif2{
+	position: relative;
+	top: -100px;
+	left: 40px;
+				}
+				
+.blok2:hover{
+	z-index: 1000 !important;
+}
+
+/* Opmaak voor de blokken bij opdracht 9 */
+				
+.mooi{
+	background: linear-gradient(orange, lightblue);
+	border: solid 1px black;
+}
+				
+.mooi+p, .mooi+h2{
+	clear: left;
+	padding-top: 10px;
+}
+
+/* Romeinse cijfers voor de lijst */				
+ol{
+	list-style-type: upper-roman;
+}
+
+/* borders en padding voor de tabel zodat ie eruit ziet als in de opdracht */
+
+table, td, th{
+		border: 1px solid black;
+		padding: 3px;
+}
+
+table{
+	border-collapse: collapse;
+}

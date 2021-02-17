@@ -1,0 +1,979 @@
+/* cmsms stylesheet: Sliminict modified: 15-11-18 13:44:12 */
+
+head {
+  padding 0px;
+}
+body {
+  font-family: 'Asap', sans-serif;
+  color: #EF7221;
+}
+h1, h2{
+  font-weight: 700;
+  font-size: 40px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.clear {
+  clear: both;
+}
+.gap24 {
+  height: 24px;
+  width: 100%;
+}
+.gap36 {
+  height: 36px;
+  width: 100%;
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  min-width: 180px;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+}
+.button_orange {
+  background-color: #f68b2d;
+}
+.button_blue {
+  background-color: #1F7FC2;
+}
+.button:hover {
+  color: white;
+}
+
+/* Custom bullets */
+.checkbullets ul {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0px;
+}
+.checkbullets li {
+  padding-left: 40px;
+  padding-top: 14px;
+  background: url('https://www.sliminict.nl/uploads/theme/check_s.png');
+  background-repeat: no-repeat;
+  list-style: none;
+  background-position: 0px 16px;
+}
+
+/* Star Rating */
+.star_rating .star {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  background-image: url("https://www.sliminict.nl/uploads/theme/ster_empty.png");
+  background-repeat: no-repeat;
+  margin-right: 4px;
+}
+.star_rating .star.active {
+  background-image: url("https://www.sliminict.nl/uploads/theme/ster_full.png");
+}
+.star_rating .star.half {
+  background-image: url("https://www.sliminict.nl/uploads/theme/ster_half.png");
+}
+
+
+/* Forms */
+form.cms_form .form-control {
+  border-radius: 0px;
+}
+form.cms_form button.btn {
+  border-radius: 0px;
+  border-color: #1F7FC2;
+  background-color: #1F7FC2;
+}
+form.cms_form input[type="text"], form input[type="email"] {
+  max-width: 510px;
+}
+form label {
+  font-weight: 600;
+}
+.alert p {
+  margin-bottom: 0px !important;
+}
+
+
+/* Breadcrumbs */
+.breadcrumb_menu {
+  font-family: 'Lato', sans-serif;
+  color: grey;
+  margin-bottom: 24px;
+  font-size: 11px;
+  font-weight: 500;
+}
+.breadcrumb_menu a, .breadcrumbs_menu a:hover {
+  color: #EF7221;
+}
+
+
+
+/* NavBar */
+.navbar {
+  background-color: white;
+  padding: 0.2rem 1rem;
+}
+.navbar a.logo {
+  display: contents;
+}
+.navbar .navbar-logo {
+  max-height: 70px;
+  max-width: 70%;
+}
+.navbar>.container {
+  position: relative;
+}
+.navbar .menuBar_top {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: right;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+}
+.navbar .menuBar_top>div, .navbar .menuBar_top>a {
+  display: inline-block;  
+}
+.navbar .menuBar_top .eco {
+  font-family: 'Lato', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  color: #474747;
+  margin-right: 16px;
+}
+.navbar .menuBar_top .eco a{
+  color: #EF7221;
+}
+.navbar .menuBar_top .eco img {
+  margin-top: -4px;
+  margin-right: 6px;
+}
+.navbar .menuBar_top a.tel {
+  color: #EF7221;
+}
+.navbar .menuBar_top .tel img {
+  height: 15px;
+  margin-top: -4px;
+}
+.navbar .navbar-collapse {
+  font-weight: 600;
+  font-size: 17px;
+}
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-collapse {
+    margin-top: 58px;
+    margin-bottom: 6px;
+  }
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #2a2a2a;
+}
+.navbar-light .navbar-nav .nav-item .line{
+  border-bottom: 2px solid white;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+.navbar-light .navbar-nav .nav-item:hover:not(.active) .nav-link {
+  color: black !important;
+}
+.navbar-light .navbar-nav .nav-item:hover:not(.active) .line {
+  border-bottom: 2px solid #EF7221;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+  font-weight: 700;
+  color: #EF7221;
+}
+.navbar-light .navbar-nav .active .line {
+  border-bottom: 3px solid;
+}
+
+
+#menuBar {
+  background-color: white;
+  padding-top: 22px;
+  padding-bottom: 20px;
+}
+#menuBar .menuBar_top {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: right;
+  line-height: 20px;
+}
+#menuBar .menuBar_top img{
+  height: 18px;
+  margin-top: -4px;
+}
+#menu {
+  color: black;
+}
+#menu a {
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+}
+
+
+/* Content Home */
+#home_slider {
+  height: 600px;
+}
+#home_slider .container {
+  padding-top: 400px;
+  position: relative;
+}
+#home_slider .home_slider_stamp {
+  width: 500px;
+  height: 500px;
+  background-image: url('https://www.sliminict.nl/uploads/theme/stamp.png');
+  position: absolute;
+  top: 32px;
+  right: 0px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#home_slider .home_slider_block {
+  height: 136px;
+  background-color: #f05f06e6;
+  padding: 16px;
+  display: block;
+  border-bottom: 0px solid white;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+#home_slider .home_slider_block:hover {
+  height: 152px;
+  border-bottom: 16px solid white;
+}
+#home_slider .home_slider_block_text {
+  margin-top: 26px;
+  float: left;
+}
+#home_slider .home_slider_block span.text {
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+#home_slider .home_slider_block span.link {
+  color: black;
+  font-size: 19px;
+  font-weight: 700;
+  display: block;
+}
+#home_slider .home_slider_block:hover span.link {
+  text-decoration: underline;
+}
+#home_slider .home_slider_block_thumb .home_slider_block_img, #home_slider .home_slider_block_laptop .home_slider_block_img, #home_slider .home_slider_block_community .home_slider_block_img {
+  float: left;
+  height: 105px;
+  width: 110px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#home_slider .home_slider_block_thumb .home_slider_block_img {
+  background-image: url('https://www.sliminict.nl/uploads/theme/thumb.png');
+  background-size: 67px;
+}
+#home_slider .home_slider_block_laptop .home_slider_block_img {
+  background-image: url('https://www.sliminict.nl/uploads/theme/laptop.png');
+  background-size: 100px;
+}
+#home_slider .home_slider_block_community .home_slider_block_img {
+  background-image: url('https://www.sliminict.nl/uploads/theme/community.png');
+  background-size: 80px;
+}
+#home_slider .home_slider_block_laptop .home_slider_block_text {
+  margin-left: 18px;
+}
+#home_slider .home_slider_block_community .home_slider_block_text {
+  margin-left: 8px;
+}
+@media only screen and (max-width: 1199px) {
+  #home_slider .home_slider_block_thumb .home_slider_block_img, #home_slider .home_slider_block_laptop .home_slider_block_img, #home_slider .home_slider_block_community .home_slider_block_img {
+    width: 80px;
+  }
+  #home_slider .home_slider_block span.text {
+    line-height: 22px;
+    font-size: 22px;
+  }
+  #home_slider .home_slider_block_thumb .home_slider_block_img {
+    background-size: 58px;
+  }
+  #home_slider .home_slider_block_laptop .home_slider_block_img {
+    background-size: 80px;
+  }
+  #home_slider .home_slider_block_community .home_slider_block_img {
+    background-size: 66px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  #home_slider {
+    height: 500px;
+  }
+  #home_slider .container {
+    padding-top: 320px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #home_slider {
+    height: 360px;
+  }
+  #home_slider .home_slider_stamp {
+    width: 300px;
+    max-width: 70%;
+    height: 220px;
+  }
+}
+
+.content_home_background {
+  background-color: white;
+}
+.content_home {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  color: #474747;
+  font-weight: 500;
+}
+@media only screen and (min-width: 768px) {
+  .content_home_content {
+    padding-right: 64px;
+  }
+}
+.content_home h1 {
+  color: #1F7FC2;
+  margin-bottom: 24px;
+}
+.content_home strong, #content_home b {
+  color: #1F7FC2;
+}
+.content_home_bullets_background {
+  background-color: #C5D4EC;
+  padding: 24px 32px;
+  color: #2a2a2a;
+}
+.content_home_bullets h3 {
+  color: #1F7FC2;
+}
+
+
+/* Content Home Opleidingen */
+.content_opleidingen_quicklink_background {
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://www.sliminict.nl/uploads/theme/bg-duotone-blauw.jpg");
+}
+.content_opleidingen_quicklink {
+  color: white;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.content_opleidingen_quicklink .opleidingen {
+  padding-top: 32px;
+  padding-bottom: 48px;
+}
+.content_opleidingen_quicklink .more_button {
+  text-align: center;
+}
+
+
+/* Statistics */
+.statistics_background_orange {
+  background-color: #f68b2d;
+}
+.statistics_background_blue {
+  background-color: #1F7FC2;
+}
+.statistic {
+  color: white;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.statistic .num {
+  display: block;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+}
+.statistic .name{
+  display: block;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+}
+.statistic .icon_building, .statistic .icon_network, .statistic .icon_college, .statistic .icon_user_work {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.statistic .icon_building {
+  background-image: url("https://www.sliminict.nl/uploads/theme/thing.png");
+  background-image: url("https://www.sliminict.nl/uploads/theme/locations.png");
+}
+.statistic .icon_network {
+  background-image: url("https://www.sliminict.nl/uploads/theme/network.png");
+}
+.statistic .icon_college {
+  background-image: url("https://www.sliminict.nl/uploads/theme/college.png");
+}
+.statistic .icon_user_work {
+  background-image: url("https://www.sliminict.nl/uploads/theme/user.png");
+}
+
+
+/* Quote Slider*/
+.content_quote_slider_background {
+  background-color: white;
+  overflow: hidden;
+}
+.content_quote_slider {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+#content_quote_slider_block>div {
+  /*width: 100% !important;*/
+}
+.content_quote_slider_foto {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 190px;
+  width: 190px;
+  border-radius: 95px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content_quote_slider_quote {
+  display: table;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content_quote_slider_quote_text {
+  display: table-cell;
+  text-align: center;
+  color: #1F7FC2;
+  font-size: 21px;
+  padding: 36px 0px 24px 0px;
+}
+.content_quote_slider_quote_start {
+  display: table-cell;
+  width: 60px;
+  background-image: url("https://www.sliminict.nl/uploads/theme/bluequotesup.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.content_quote_slider_quote_end {
+  display: table-cell;
+  width: 60px;
+  background-image: url("https://www.sliminict.nl/uploads/theme/bluequotesdown.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.content_quote_slider_naam {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: #474747;
+}
+.content_quote_slider_bedrijf {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #474747;
+}
+.rhino-bullets {
+  bottom: -26px;
+  margin: 0px 0 0 -44px;
+}
+.rhino-bullets:before, .rhino-bullets:after {
+  display: none;
+}
+.rhino-bullets li {
+  margin: 0 3px;
+}
+.rhino-bullets li a.rhino-bullet {
+  height: 16px;
+  background-color: #b3b3b3;
+  border-radius: 16px;
+  text-indent: -1000em;
+}
+.rhino-bullets li a.rhino-bullet.rhino-active-bullet {
+  background: #1F7FC2;
+}
+.rhino-bullets li a.rhino-bullet:hover, .rhino-bullets li a.rhino-bullet:focus {
+  background: #6d6d6d;
+}
+
+
+/************************/
+/* Opleidingen template */
+/************************/
+#opleidingen_slider {
+  height: 220px;
+}
+#opleidingen_slider h1 {
+  color: white;
+  font-size: 70px;
+  line-height: 220px;
+}
+@media only screen and (max-width: 575px) {
+  #opleidingen_slider h1 {
+    font-size: 42px;
+  }
+}
+.opleidingen_search_background {
+  background-color: #f68b2d;
+}
+.opleidingen_search {
+  color: black;
+  line-height: 38px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.opleidingen_search form {
+  color: white; {*#2a2a2a;*}
+  line-height: initial;
+}
+.opleidingen_search input[type="email"] {
+  border-radius: 0px;
+  border-color: white;
+  max-width: initial;
+}
+.opleidingen_search button {
+  border-radius: 0px;
+  border-color: #1F7FC2;
+  background-color: #1F7FC2;
+  vertical-align: initial;
+}
+.opleidingen_search label {
+  margin-top: .5em;
+}
+.opleidingen_search .response {
+  text-align: center;
+  color: white;
+}
+.opleidingen_grid_background {
+  background-color: #EDEDED;
+}
+.opleidingen_grid {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.opleidingen_grid .filters h4 {
+  font-weight: 700;
+}
+.opleidingen_grid .filters hr {
+  border-top: 2px solid orange;
+}
+.control {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 8px;
+  padding-top: 4px;
+  cursor: pointer;
+  font-size: 17px;
+  color: #2a2a2a;
+  font-weight: 700;
+}
+.control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.control_indicator {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background: #ffffff;
+  border: 1px solid #EF7221;;
+}
+.control-radio .control_indicator {
+  border-radius: undefined%;
+}
+.control:hover input ~ .control_indicator {
+  background: #d8d8d8;
+}
+.control input:checked ~ .control_indicator {
+  background: #EF7221;;
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+  background: #0e6647d;
+}
+.control input:disabled ~ .control_indicator {
+  background: #e6e6e6;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.control_indicator:after {
+  box-sizing: unset;
+  content: '';
+  position: absolute;
+  display: none;
+}
+.control input:checked ~ .control_indicator:after {
+  display: block;
+}
+.control-checkbox .control_indicator:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.control-checkbox input:disabled ~ .control_indicator:after {
+  border-color: #EF7221;
+}
+
+.opleiding_tile {
+  display: block;
+  background-color: white;
+  margin-bottom: 24px;
+}
+.opleiding_tile:hover {
+  text-decoration: none;
+}
+.opleiding_tile:hover .opleiding_tile_button {
+  text-decoration: underline;
+}
+.opleiding_tile_image {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.opleiding_tile_image .label {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  color: white;
+  background-color: #f68b2d;
+  padding: 1px 12px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.opleiding_tile_image .label.label_blue{
+  background-color: #1F7FC2;
+}
+.opleiding_tile_content {
+  height: 140px;
+}
+.opleiding_tile_title {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 12px;
+  color: #EF7221;
+}
+.opleiding_tile_text {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  padding: 2px 12px;
+  font-weight: 500;
+  color: #474747;
+}
+.opleiding_tile_rating {
+  padding: 12px;
+}
+.opleiding_tile_button {
+  padding: 6px 12px;
+  float: right;
+  min-width: auto;
+}
+a.sliminict_ad {
+  background-color: #f68b2d;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.sliminict_ad_text {
+  text-align: left;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.sliminict_ad_logo {
+  width: 100%;
+}
+.sliminict_ad_cursor {
+  width: 90px;
+}
+
+
+/* Opleiding */
+.opleiding_header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.opleiding_header_content {
+  background-color: white;
+  padding: 16px;
+  color: black;
+}
+.opleiding_header_content .star_rating {
+  margin-bottom: 8px;
+}
+.opleiding_header_content h1 {
+  color: #1F7FC2;
+  font-size: 30px;
+}
+.opleiding_header_content .button_right {
+  float: right;
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .opleiding_header_content .button_right {
+    float: none;
+    margin-top: 16px;
+  }
+}
+@media only screen and (max-width: 445px) {
+  .opleiding_header_content .button_right {
+    float: none;
+    margin-top: 16px;
+  }
+}
+.opleiding_header_image {
+  background-size: cover;
+  background-position: center;
+  min-height: 0px;
+}
+.opleiding_header_image .label {
+  position: absolute;
+  bottom: 16px;
+  left: 24px;
+  background-color: #f68b2d;
+  color: white;
+  padding: 3px 12px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.opleiding_header_image .label.label_blue {
+  background-color: #1F7FC2;
+}
+.opleiding_block_background {
+  background-color: white;
+}
+.opleiding_block {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  color: #474747;
+}
+@media only screen and (min-width: 768px) {
+  .opleiding_content {
+    padding-right: 64px;
+  }
+}
+.opleiding_content h3 {
+  color: #1F7FC2;
+  margin-bottom: 0.6em;
+}
+.opleiding_content p, .opleiding_content ul {
+  margin-bottom: 1.8em;
+  line-height: 1.6em;
+}
+.opleiding_content p + ul {
+  margin-top: -1em;
+}
+
+.opleiding_sidebar_info {
+  padding: 24px;
+  background-color: #C5D4EC;
+  color: black;
+}
+.opleiding_sidebar_info ul {
+  padding: 0px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.opleiding_sidebar_info li {
+  padding-left: 21px;
+  background: url(https://www.sliminict.nl/uploads/theme/bullet_dot2.png);
+  background-repeat: no-repeat;
+  list-style: none;
+  background-size: 8px;
+  background-position: 0px 9px;
+  padding-bottom: 4px;
+}
+.opleiding_sidebar_testimonials {
+  background-color: #f68b2d;
+  color: white;
+  padding: 0px 0px 8px 0px;
+  overflow: hidden;
+}
+.opleiding_sidebar_testimonials_header {
+  padding: 24px;
+}
+.opleiding_sidebar_testimonials_content {
+  display: table;
+}
+.opleiding_sidebar_testimonials_content_start {
+  height: 30px;
+  width: 50px;
+  display: table-cell;
+  background-image: url('https://www.sliminict.nl/uploads/theme/orangequotesdown.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  margin-left: 12px;
+}
+.opleiding_sidebar_testimonials_content_text {
+  display: table-cell;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 13px 0px;
+}
+.opleiding_sidebar_testimonials_content_text p {
+  margin: 0px;
+}
+.opleiding_sidebar_testimonials_content_end {
+  height: 30px;
+  width: 50px;
+  display: table-cell;
+  background-image: url('https://www.sliminict.nl/uploads/theme/orangequotesup.png');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  margin-right: 12px;
+}
+.opleiding_sidebar_teacher {
+  margin-top: 32px;
+  background-color: #1F7FC2;
+  color: white;
+  padding: 0px;
+}
+.opleiding_sidebar_teacher h3{
+  margin-bottom: 0px;
+}
+.opleiding_sidebar_teacher_header {
+  padding: 24px;
+}
+.opleiding_sidebar_teacher_photo {
+  height: 220px;
+  background-size: cover;
+  background-position: center
+}
+.opleiding_sidebar_teacher_data {
+  padding: 24px;
+}
+
+
+/* Content page */
+#content_slider {
+  height: 220px;
+}
+#content_slider h1 {
+  color: white;
+  font-size: 70px;
+  line-height: 220px;
+}
+@media only screen and (max-width: 575px) {
+  #content_slider h1 {
+    font-size: 42px;
+  }
+}
+.content_block_background {
+  background-color: white;
+}
+.content_block {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  color: #474747;
+}
+@media only screen and (min-width: 768px) {
+  .content_content {
+    padding-right: 64px;
+  }
+}
+.content_content h3 {
+  color: #1F7FC2;
+  margin-bottom: 0.6em;
+}
+.content_content p, .content_content ul {
+  margin-bottom: 1.8em;
+  line-height: 1.6em;
+}
+.content_content p + ul {
+  margin-top: -1em;
+}
+.content_sidebar_lightblue, .content_sidebar_orange, .content_sidebar_blue {
+  padding: 24px;
+  background-color: #C5D4EC;
+  color: #2a2a2a;
+  margin-bottom: 36px;
+  font-size: 17px;
+}
+.content_sidebar_orange {
+  background-color: #f68b2d;
+  color: white;
+}
+.content_sidebar_blue {
+  background-color: #1F7FC2;
+  color: white;
+}
+.content_sidebar_lightblue p:last-child, .content_sidebar_orange p:last-child, .content_sidebar_blue p:last-child {
+  margin-bottom: 0px;
+}
+.content_sidebar_lightblue ul, .content_sidebar_orange ul, .content_sidebar_blue ul {
+  padding: 0px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.content_sidebar_lightblue li, .content_sidebar_orange li, .content_sidebar_blue li {
+  padding-left: 21px;
+  background: url(https://www.sliminict.nl/uploads/theme/bullet_dot2.png);
+  background-repeat: no-repeat;
+  list-style: none;
+  background-size: 8px;
+  background-position: 0px 9px;
+  padding-bottom: 4px;
+}
+{* todo kopjes kleuren *}
+
+
+
+/* Footer */
+#footer_background {
+  background-color: #3C3E41;
+}
+#footer {
+  color: white;
+  font-size: 13px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+#footer .footer_block {
+  margin-bottom: 24px;
+}
+#footer a {
+  color: white;
+  /*text-decoration: underline;*/
+}
+#footer a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+#footer img {
+  margin-bottom: 8px;
+}
